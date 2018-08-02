@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Wissam_Nasser_digx_werkstuk2
 //
-//  Created by student on 01/08/2018.
+//  Created by student on 02/08/2018.
 //  Copyright © 2018 student. All rights reserved.
 //
 

@@ -7,79 +7,143 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FF8C15E2112485D003377C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8C15D2112485D003377C6 /* AppDelegate.swift */; };
-		3FF8C1602112485D003377C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8C15F2112485D003377C6 /* ViewController.swift */; };
-		3FF8C1632112485D003377C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF8C1612112485D003377C6 /* Main.storyboard */; };
-		3FF8C1652112485D003377C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF8C1642112485D003377C6 /* Assets.xcassets */; };
-		3FF8C1682112485D003377C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF8C1662112485D003377C6 /* LaunchScreen.storyboard */; };
-		3FF8C17121124BEC003377C6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF8C17021124BEC003377C6 /* MapKit.framework */; };
-		3FF8C17321124C57003377C6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF8C17221124C57003377C6 /* CoreLocation.framework */; };
-		3FF8C1752112500B003377C6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF8C1742112500B003377C6 /* CoreData.framework */; };
+		3F84F25C211331ED001926CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84F25B211331ED001926CC /* AppDelegate.swift */; };
+		3F84F25E211331ED001926CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84F25D211331ED001926CC /* ViewController.swift */; };
+		3F84F261211331ED001926CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F84F25F211331ED001926CC /* Main.storyboard */; };
+		3F84F264211331ED001926CC /* Wissam_Nasser_digx_werkstuk2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F84F262211331ED001926CC /* Wissam_Nasser_digx_werkstuk2.xcdatamodeld */; };
+		3F84F266211331ED001926CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F84F265211331ED001926CC /* Assets.xcassets */; };
+		3F84F269211331ED001926CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F84F267211331ED001926CC /* LaunchScreen.storyboard */; };
+		3F84F274211331ED001926CC /* Wissam_Nasser_digx_werkstuk2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84F273211331ED001926CC /* Wissam_Nasser_digx_werkstuk2Tests.swift */; };
+		3F84F27F211331ED001926CC /* Wissam_Nasser_digx_werkstuk2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84F27E211331ED001926CC /* Wissam_Nasser_digx_werkstuk2UITests.swift */; };
+		3F84F28E21133221001926CC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F84F28D21133221001926CC /* MapKit.framework */; };
+		3F84F29021133243001926CC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F84F28F21133243001926CC /* CoreLocation.framework */; };
+		3F84F29221133251001926CC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F84F29121133251001926CC /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3F84F270211331ED001926CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F84F250211331EC001926CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F84F257211331EC001926CC;
+			remoteInfo = Wissam_Nasser_digx_werkstuk2;
+		};
+		3F84F27B211331ED001926CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F84F250211331EC001926CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F84F257211331EC001926CC;
+			remoteInfo = Wissam_Nasser_digx_werkstuk2;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		3FF8C15A2112485D003377C6 /* Wissam_Nasser_digx_werkstuk2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wissam_Nasser_digx_werkstuk2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FF8C15D2112485D003377C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FF8C15F2112485D003377C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3FF8C1622112485D003377C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3FF8C1642112485D003377C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3FF8C1672112485D003377C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3FF8C1692112485D003377C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FF8C17021124BEC003377C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		3FF8C17221124C57003377C6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		3FF8C1742112500B003377C6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3F84F258211331EC001926CC /* Wissam_Nasser_digx_werkstuk2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wissam_Nasser_digx_werkstuk2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F84F25B211331ED001926CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F84F25D211331ED001926CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F84F260211331ED001926CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F84F263211331ED001926CC /* Wissam_Nasser_digx_werkstuk2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wissam_Nasser_digx_werkstuk2.xcdatamodel; sourceTree = "<group>"; };
+		3F84F265211331ED001926CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F84F268211331ED001926CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F84F26A211331ED001926CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F84F26F211331ED001926CC /* Wissam_Nasser_digx_werkstuk2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wissam_Nasser_digx_werkstuk2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F84F273211331ED001926CC /* Wissam_Nasser_digx_werkstuk2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wissam_Nasser_digx_werkstuk2Tests.swift; sourceTree = "<group>"; };
+		3F84F275211331ED001926CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F84F27A211331ED001926CC /* Wissam_Nasser_digx_werkstuk2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wissam_Nasser_digx_werkstuk2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F84F27E211331ED001926CC /* Wissam_Nasser_digx_werkstuk2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wissam_Nasser_digx_werkstuk2UITests.swift; sourceTree = "<group>"; };
+		3F84F280211331ED001926CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F84F28D21133221001926CC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3F84F28F21133243001926CC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3F84F29121133251001926CC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3FF8C1572112485D003377C6 /* Frameworks */ = {
+		3F84F255211331EC001926CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF8C1752112500B003377C6 /* CoreData.framework in Frameworks */,
-				3FF8C17321124C57003377C6 /* CoreLocation.framework in Frameworks */,
-				3FF8C17121124BEC003377C6 /* MapKit.framework in Frameworks */,
+				3F84F29221133251001926CC /* CoreData.framework in Frameworks */,
+				3F84F29021133243001926CC /* CoreLocation.framework in Frameworks */,
+				3F84F28E21133221001926CC /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F84F26C211331ED001926CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F84F277211331ED001926CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3FF8C1512112485D003377C6 = {
+		3F84F24F211331EC001926CC = {
 			isa = PBXGroup;
 			children = (
-				3FF8C15C2112485D003377C6 /* Wissam_Nasser_digx_werkstuk2 */,
-				3FF8C15B2112485D003377C6 /* Products */,
-				3FF8C16F21124BEC003377C6 /* Frameworks */,
+				3F84F25A211331EC001926CC /* Wissam_Nasser_digx_werkstuk2 */,
+				3F84F272211331ED001926CC /* Wissam_Nasser_digx_werkstuk2Tests */,
+				3F84F27D211331ED001926CC /* Wissam_Nasser_digx_werkstuk2UITests */,
+				3F84F259211331EC001926CC /* Products */,
+				3F84F28C21133221001926CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		3FF8C15B2112485D003377C6 /* Products */ = {
+		3F84F259211331EC001926CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FF8C15A2112485D003377C6 /* Wissam_Nasser_digx_werkstuk2.app */,
+				3F84F258211331EC001926CC /* Wissam_Nasser_digx_werkstuk2.app */,
+				3F84F26F211331ED001926CC /* Wissam_Nasser_digx_werkstuk2Tests.xctest */,
+				3F84F27A211331ED001926CC /* Wissam_Nasser_digx_werkstuk2UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3FF8C15C2112485D003377C6 /* Wissam_Nasser_digx_werkstuk2 */ = {
+		3F84F25A211331EC001926CC /* Wissam_Nasser_digx_werkstuk2 */ = {
 			isa = PBXGroup;
 			children = (
-				3FF8C15D2112485D003377C6 /* AppDelegate.swift */,
-				3FF8C15F2112485D003377C6 /* ViewController.swift */,
-				3FF8C1612112485D003377C6 /* Main.storyboard */,
-				3FF8C1642112485D003377C6 /* Assets.xcassets */,
-				3FF8C1662112485D003377C6 /* LaunchScreen.storyboard */,
-				3FF8C1692112485D003377C6 /* Info.plist */,
+				3F84F25B211331ED001926CC /* AppDelegate.swift */,
+				3F84F25D211331ED001926CC /* ViewController.swift */,
+				3F84F25F211331ED001926CC /* Main.storyboard */,
+				3F84F265211331ED001926CC /* Assets.xcassets */,
+				3F84F267211331ED001926CC /* LaunchScreen.storyboard */,
+				3F84F26A211331ED001926CC /* Info.plist */,
+				3F84F262211331ED001926CC /* Wissam_Nasser_digx_werkstuk2.xcdatamodeld */,
 			);
 			path = Wissam_Nasser_digx_werkstuk2;
 			sourceTree = "<group>";
 		};
-		3FF8C16F21124BEC003377C6 /* Frameworks */ = {
+		3F84F272211331ED001926CC /* Wissam_Nasser_digx_werkstuk2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				3FF8C1742112500B003377C6 /* CoreData.framework */,
-				3FF8C17221124C57003377C6 /* CoreLocation.framework */,
-				3FF8C17021124BEC003377C6 /* MapKit.framework */,
+				3F84F273211331ED001926CC /* Wissam_Nasser_digx_werkstuk2Tests.swift */,
+				3F84F275211331ED001926CC /* Info.plist */,
+			);
+			path = Wissam_Nasser_digx_werkstuk2Tests;
+			sourceTree = "<group>";
+		};
+		3F84F27D211331ED001926CC /* Wissam_Nasser_digx_werkstuk2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F84F27E211331ED001926CC /* Wissam_Nasser_digx_werkstuk2UITests.swift */,
+				3F84F280211331ED001926CC /* Info.plist */,
+			);
+			path = Wissam_Nasser_digx_werkstuk2UITests;
+			sourceTree = "<group>";
+		};
+		3F84F28C21133221001926CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F84F29121133251001926CC /* CoreData.framework */,
+				3F84F28F21133243001926CC /* CoreLocation.framework */,
+				3F84F28D21133221001926CC /* MapKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -87,13 +151,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3FF8C1592112485D003377C6 /* Wissam_Nasser_digx_werkstuk2 */ = {
+		3F84F257211331EC001926CC /* Wissam_Nasser_digx_werkstuk2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FF8C16C2112485D003377C6 /* Build configuration list for PBXNativeTarget "Wissam_Nasser_digx_werkstuk2" */;
+			buildConfigurationList = 3F84F283211331ED001926CC /* Build configuration list for PBXNativeTarget "Wissam_Nasser_digx_werkstuk2" */;
 			buildPhases = (
-				3FF8C1562112485D003377C6 /* Sources */,
-				3FF8C1572112485D003377C6 /* Frameworks */,
-				3FF8C1582112485D003377C6 /* Resources */,
+				3F84F254211331EC001926CC /* Sources */,
+				3F84F255211331EC001926CC /* Frameworks */,
+				3F84F256211331EC001926CC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -101,20 +165,56 @@
 			);
 			name = Wissam_Nasser_digx_werkstuk2;
 			productName = Wissam_Nasser_digx_werkstuk2;
-			productReference = 3FF8C15A2112485D003377C6 /* Wissam_Nasser_digx_werkstuk2.app */;
+			productReference = 3F84F258211331EC001926CC /* Wissam_Nasser_digx_werkstuk2.app */;
 			productType = "com.apple.product-type.application";
+		};
+		3F84F26E211331ED001926CC /* Wissam_Nasser_digx_werkstuk2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F84F286211331ED001926CC /* Build configuration list for PBXNativeTarget "Wissam_Nasser_digx_werkstuk2Tests" */;
+			buildPhases = (
+				3F84F26B211331ED001926CC /* Sources */,
+				3F84F26C211331ED001926CC /* Frameworks */,
+				3F84F26D211331ED001926CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F84F271211331ED001926CC /* PBXTargetDependency */,
+			);
+			name = Wissam_Nasser_digx_werkstuk2Tests;
+			productName = Wissam_Nasser_digx_werkstuk2Tests;
+			productReference = 3F84F26F211331ED001926CC /* Wissam_Nasser_digx_werkstuk2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F84F279211331ED001926CC /* Wissam_Nasser_digx_werkstuk2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F84F289211331ED001926CC /* Build configuration list for PBXNativeTarget "Wissam_Nasser_digx_werkstuk2UITests" */;
+			buildPhases = (
+				3F84F276211331ED001926CC /* Sources */,
+				3F84F277211331ED001926CC /* Frameworks */,
+				3F84F278211331ED001926CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F84F27C211331ED001926CC /* PBXTargetDependency */,
+			);
+			name = Wissam_Nasser_digx_werkstuk2UITests;
+			productName = Wissam_Nasser_digx_werkstuk2UITests;
+			productReference = 3F84F27A211331ED001926CC /* Wissam_Nasser_digx_werkstuk2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3FF8C1522112485D003377C6 /* Project object */ = {
+		3F84F250211331EC001926CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = student;
 				TargetAttributes = {
-					3FF8C1592112485D003377C6 = {
+					3F84F257211331EC001926CC = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -123,9 +223,19 @@
 							};
 						};
 					};
+					3F84F26E211331ED001926CC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F84F257211331EC001926CC;
+					};
+					3F84F279211331ED001926CC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F84F257211331EC001926CC;
+					};
 				};
 			};
-			buildConfigurationList = 3FF8C1552112485D003377C6 /* Build configuration list for PBXProject "Wissam_Nasser_digx_werkstuk2" */;
+			buildConfigurationList = 3F84F253211331EC001926CC /* Build configuration list for PBXProject "Wissam_Nasser_digx_werkstuk2" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,54 +243,100 @@
 				en,
 				Base,
 			);
-			mainGroup = 3FF8C1512112485D003377C6;
-			productRefGroup = 3FF8C15B2112485D003377C6 /* Products */;
+			mainGroup = 3F84F24F211331EC001926CC;
+			productRefGroup = 3F84F259211331EC001926CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FF8C1592112485D003377C6 /* Wissam_Nasser_digx_werkstuk2 */,
+				3F84F257211331EC001926CC /* Wissam_Nasser_digx_werkstuk2 */,
+				3F84F26E211331ED001926CC /* Wissam_Nasser_digx_werkstuk2Tests */,
+				3F84F279211331ED001926CC /* Wissam_Nasser_digx_werkstuk2UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3FF8C1582112485D003377C6 /* Resources */ = {
+		3F84F256211331EC001926CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF8C1682112485D003377C6 /* LaunchScreen.storyboard in Resources */,
-				3FF8C1652112485D003377C6 /* Assets.xcassets in Resources */,
-				3FF8C1632112485D003377C6 /* Main.storyboard in Resources */,
+				3F84F269211331ED001926CC /* LaunchScreen.storyboard in Resources */,
+				3F84F266211331ED001926CC /* Assets.xcassets in Resources */,
+				3F84F261211331ED001926CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F84F26D211331ED001926CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F84F278211331ED001926CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3FF8C1562112485D003377C6 /* Sources */ = {
+		3F84F254211331EC001926CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF8C1602112485D003377C6 /* ViewController.swift in Sources */,
-				3FF8C15E2112485D003377C6 /* AppDelegate.swift in Sources */,
+				3F84F25E211331ED001926CC /* ViewController.swift in Sources */,
+				3F84F25C211331ED001926CC /* AppDelegate.swift in Sources */,
+				3F84F264211331ED001926CC /* Wissam_Nasser_digx_werkstuk2.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F84F26B211331ED001926CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F84F274211331ED001926CC /* Wissam_Nasser_digx_werkstuk2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F84F276211331ED001926CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F84F27F211331ED001926CC /* Wissam_Nasser_digx_werkstuk2UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		3F84F271211331ED001926CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F84F257211331EC001926CC /* Wissam_Nasser_digx_werkstuk2 */;
+			targetProxy = 3F84F270211331ED001926CC /* PBXContainerItemProxy */;
+		};
+		3F84F27C211331ED001926CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F84F257211331EC001926CC /* Wissam_Nasser_digx_werkstuk2 */;
+			targetProxy = 3F84F27B211331ED001926CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		3FF8C1612112485D003377C6 /* Main.storyboard */ = {
+		3F84F25F211331ED001926CC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3FF8C1622112485D003377C6 /* Base */,
+				3F84F260211331ED001926CC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3FF8C1662112485D003377C6 /* LaunchScreen.storyboard */ = {
+		3F84F267211331ED001926CC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3FF8C1672112485D003377C6 /* Base */,
+				3F84F268211331ED001926CC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -188,7 +344,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3FF8C16A2112485D003377C6 /* Debug */ = {
+		3F84F281211331ED001926CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,7 +401,7 @@
 			};
 			name = Debug;
 		};
-		3FF8C16B2112485D003377C6 /* Release */ = {
+		3F84F282211331ED001926CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -295,7 +451,7 @@
 			};
 			name = Release;
 		};
-		3FF8C16D2112485D003377C6 /* Debug */ = {
+		3F84F284211331ED001926CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -309,7 +465,7 @@
 			};
 			name = Debug;
 		};
-		3FF8C16E2112485D003377C6 /* Release */ = {
+		3F84F285211331ED001926CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -323,28 +479,121 @@
 			};
 			name = Release;
 		};
+		3F84F287211331ED001926CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Wissam_Nasser_digx_werkstuk2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "student.Wissam-Nasser-digx-werkstuk2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wissam_Nasser_digx_werkstuk2.app/Wissam_Nasser_digx_werkstuk2";
+			};
+			name = Debug;
+		};
+		3F84F288211331ED001926CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Wissam_Nasser_digx_werkstuk2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "student.Wissam-Nasser-digx-werkstuk2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wissam_Nasser_digx_werkstuk2.app/Wissam_Nasser_digx_werkstuk2";
+			};
+			name = Release;
+		};
+		3F84F28A211331ED001926CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Wissam_Nasser_digx_werkstuk2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "student.Wissam-Nasser-digx-werkstuk2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wissam_Nasser_digx_werkstuk2;
+			};
+			name = Debug;
+		};
+		3F84F28B211331ED001926CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Wissam_Nasser_digx_werkstuk2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "student.Wissam-Nasser-digx-werkstuk2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wissam_Nasser_digx_werkstuk2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3FF8C1552112485D003377C6 /* Build configuration list for PBXProject "Wissam_Nasser_digx_werkstuk2" */ = {
+		3F84F253211331EC001926CC /* Build configuration list for PBXProject "Wissam_Nasser_digx_werkstuk2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FF8C16A2112485D003377C6 /* Debug */,
-				3FF8C16B2112485D003377C6 /* Release */,
+				3F84F281211331ED001926CC /* Debug */,
+				3F84F282211331ED001926CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FF8C16C2112485D003377C6 /* Build configuration list for PBXNativeTarget "Wissam_Nasser_digx_werkstuk2" */ = {
+		3F84F283211331ED001926CC /* Build configuration list for PBXNativeTarget "Wissam_Nasser_digx_werkstuk2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FF8C16D2112485D003377C6 /* Debug */,
-				3FF8C16E2112485D003377C6 /* Release */,
+				3F84F284211331ED001926CC /* Debug */,
+				3F84F285211331ED001926CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F84F286211331ED001926CC /* Build configuration list for PBXNativeTarget "Wissam_Nasser_digx_werkstuk2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F84F287211331ED001926CC /* Debug */,
+				3F84F288211331ED001926CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F84F289211331ED001926CC /* Build configuration list for PBXNativeTarget "Wissam_Nasser_digx_werkstuk2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F84F28A211331ED001926CC /* Debug */,
+				3F84F28B211331ED001926CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F84F262211331ED001926CC /* Wissam_Nasser_digx_werkstuk2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F84F263211331ED001926CC /* Wissam_Nasser_digx_werkstuk2.xcdatamodel */,
+			);
+			currentVersion = 3F84F263211331ED001926CC /* Wissam_Nasser_digx_werkstuk2.xcdatamodel */;
+			path = Wissam_Nasser_digx_werkstuk2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 3FF8C1522112485D003377C6 /* Project object */;
+	rootObject = 3F84F250211331EC001926CC /* Project object */;
 }
